@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
-import file from '.\\CV2018_Ninni_Hornaeus.pdf';
+import file from '.\\CV2019_Ninni_Hornaeus.pdf';
 
 class PdfView extends PureComponent{
     constructor(props){
@@ -31,12 +31,6 @@ class PdfView extends PureComponent{
           </div>
         );
       }
-    // render(){
-    //     return(
-    //         <Document file="./CV2018_Ninni_Hornaeus.pdf" />
-    //     )
-    // }
-    
 }
 
 export default PdfView;

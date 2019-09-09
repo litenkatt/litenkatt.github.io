@@ -8,7 +8,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Ninni.Tech</h1>
         <PdfView className="pdf"/>
       </div>
     );
